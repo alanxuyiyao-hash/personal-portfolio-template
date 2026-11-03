@@ -12,13 +12,13 @@
 
 使用原版 HTML / CSS / JavaScript，无需 npm 依赖或构建。替换素材与文案会改变画面的实际构图；布局和交互代码保持原样。
 
-## 安装到 Codex
+## 安装 Skill
 
 ```bash
-git clone https://github.com/alanxuyiyao-hash/personal-portfolio-template.git ~/.codex/skills/personal-portfolio-template
+git clone https://github.com/alanxuyiyao-hash/personal-portfolio-template.git skills/personal-portfolio-template
 ```
 
-如果目标目录已存在，请先保留自己的修改，避免覆盖。安装后在新对话中调用：
+将下载的 `personal-portfolio-template` 文件夹放入所用 AI 工具支持的 skills 目录。如果目标目录已存在，请先保留自己的修改，避免覆盖。安装后在新对话中调用：
 
 ```text
 使用 $personal-portfolio-template，用我提供的图片、个人介绍和项目资料生成个人网页，保持原版样式和交互。
