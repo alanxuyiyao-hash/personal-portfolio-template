@@ -1,0 +1,540 @@
+{
+  "site": {
+    "pageTitle": "Alan Xu - Interactive Portfolio",
+    "description": "Alan Xu is an interactive developer building motion-led digital work.",
+    "brand": "ALAN",
+    "initials": "AX",
+    "year": "2026",
+    "homeLines": [
+      "INTERACTIVE DEVELOPER",
+      "AVAILABLE FOR SELECTED WORK"
+    ],
+    "social": [
+      {
+        "label": "EMAIL",
+        "url": "mailto:alan@example.com"
+      },
+      {
+        "label": "GITHUB",
+        "url": "https://github.com/"
+      },
+      {
+        "label": "LINKEDIN",
+        "url": "https://www.linkedin.com/"
+      }
+    ],
+    "aboutLabel": "About Alan Xu",
+    "aboutText": "ALAN XU BUILDS MOTION-LED DIGITAL EXPERIENCES, INTERACTIVE TOOLS, AND WEB SYSTEMS WITH A FOCUS ON RHYTHM, CLARITY, AND DETAIL.",
+    "aboutFacts": [
+      {
+        "label": "FOCUS",
+        "value": "FRONTEND / MOTION / PRODUCT"
+      },
+      {
+        "label": "TOOLS",
+        "value": "REACT / WEBGL / DESIGN SYSTEMS"
+      },
+      {
+        "label": "BASE",
+        "value": "SHANGHAI / REMOTE"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": [
+        "BLADE",
+        "RUNNER"
+      ],
+      "short": "Blade Runner 2049",
+      "kicker": "01 / CINEMA STUDY",
+      "date": "2017",
+      "type": "SCI-FI NOIR",
+      "role": "TRAILER STUDY",
+      "client": "WARNER BROS.",
+      "url": "",
+      "videoSrc": "assets/Blade Runner 2049 Official Trailer.mp4",
+      "videoDuration": 141,
+      "description": "Neon fog, synthetic memory, and monumental color fields shaped as a slow cinematic system.",
+      "theme": "#e08a3f",
+      "bg": "#343d3f",
+      "visual": [
+        "#e08a3f",
+        "#65797c",
+        "#111313"
+      ],
+      "image": "https://i.ytimg.com/vi/gCcx85zbxz4/maxresdefault.jpg",
+      "posterTitle": [
+        {
+          "text": "BLADE",
+          "x": "0vw"
+        },
+        {
+          "text": "RUNNER",
+          "x": "13vw"
+        }
+      ],
+      "frames": [
+        [
+          "NEON",
+          "Electric city haze, amber interiors, and hard silhouettes."
+        ],
+        [
+          "MEMORY",
+          "Faces and fragments staged like evidence from another life."
+        ],
+        [
+          "SCALE",
+          "Brutalist spaces turn the human figure into a small signal."
+        ],
+        [
+          "FUTURE",
+          "A noir rhythm built from silence, weather, and artificial light."
+        ]
+      ],
+      "chapters": [
+        {
+          "start": 0,
+          "end": 6.5,
+          "title": "STRIKE",
+          "summary": "Holographic grid lines, flying cars, gunfire, neon bodies, and the red title card land as one metallic impact.",
+          "points": [
+            "00:00 - 00:06",
+            "RYAN GOSLING / HARRISON FORD",
+            "Opening shock"
+          ]
+        },
+        {
+          "start": 6.5,
+          "end": 30.7,
+          "title": "WALLACE",
+          "summary": "A fog-choked pyramid, glass tanks, and Wallace's birth ritual frame replicants as a disposable workforce.",
+          "points": [
+            "00:06 - 00:31",
+            "Disposable workforce",
+            "Happy birthday"
+          ]
+        },
+        {
+          "start": 30.7,
+          "end": 43.9,
+          "title": "ORDER",
+          "summary": "Joshi's warning about walls and war plays over rain, police vehicles, blood, and neon signs in the night city.",
+          "points": [
+            "00:31 - 00:44",
+            "We keep order",
+            "City pressure"
+          ]
+        },
+        {
+          "start": 43.9,
+          "end": 77.9,
+          "title": "DESERT",
+          "summary": "The trailer shifts to orange dust, buried statues, and Deckard's guarded encounter with K inside a sun-bleached ruin.",
+          "points": [
+            "00:44 - 01:18",
+            "Denis Villeneuve",
+            "Deckard returns"
+          ]
+        },
+        {
+          "start": 77.9,
+          "end": 102,
+          "title": "CHAOS",
+          "summary": "Storm flight, snow markets, explosions, flipped cars, fire, and magenta club gunfire push the cut into action velocity.",
+          "points": [
+            "01:18 - 01:42",
+            "They know you're here",
+            "Action escalation"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 128,
+          "title": "JOI",
+          "summary": "A glitching Joi screen, a sunlit forest, Luv's advance, and Joi's intimate words slow the trailer into emotional resolve.",
+          "points": [
+            "01:42 - 02:08",
+            "You're special",
+            "Story unresolved"
+          ]
+        },
+        {
+          "start": 128,
+          "end": 141,
+          "title": "TITLE",
+          "summary": "K lifts his gaze before the final Blade Runner 2049 title, credits, IMAX card, hashtag, and release date burn out.",
+          "points": [
+            "02:08 - 02:21",
+            "10.6.17",
+            "Final release card"
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        "DUNE",
+        "DESERT"
+      ],
+      "short": "Dune",
+      "kicker": "02 / CINEMA STUDY",
+      "date": "2021",
+      "type": "MONUMENTAL SCI-FI",
+      "role": "TRAILER STUDY",
+      "client": "WARNER BROS.",
+      "url": "https://www.youtube.com/watch?v=8g18jFHCLXk",
+      "youtubeId": "8g18jFHCLXk",
+      "videoDuration": 220,
+      "description": "Desert scale, ritual architecture, and slow pressure arranged as a vast visual language.",
+      "theme": "#c99759",
+      "bg": "#d3c0a2",
+      "visual": [
+        "#c99759",
+        "#e0d0b0",
+        "#2a2822"
+      ],
+      "image": "https://i.ytimg.com/vi/8g18jFHCLXk/maxresdefault.jpg",
+      "posterTitle": [
+        {
+          "text": "DUNE",
+          "x": "0vw"
+        },
+        {
+          "text": "DESERT",
+          "x": "12vw"
+        }
+      ],
+      "frames": [
+        [
+          "SAND",
+          "A restrained palette turns the landscape into a graphic field."
+        ],
+        [
+          "POWER",
+          "Ceremony, armor, and architecture carry the political weight."
+        ],
+        [
+          "VISION",
+          "Dream images arrive as fragments before the world explains them."
+        ],
+        [
+          "SCALE",
+          "Wide frames use distance and silence to make the myth feel physical."
+        ]
+      ]
+    },
+    {
+      "title": [
+        "GRAND",
+        "HOTEL"
+      ],
+      "short": "The Grand Budapest Hotel",
+      "kicker": "03 / CINEMA STUDY",
+      "date": "2014",
+      "type": "FORMAL COMEDY",
+      "role": "TRAILER STUDY",
+      "client": "SEARCHLIGHT",
+      "url": "https://www.youtube.com/watch?v=1Fg5iWmQjwk",
+      "youtubeId": "1Fg5iWmQjwk",
+      "videoDuration": 146,
+      "description": "Symmetry, powder color, and theatrical blocking make every frame read like a designed object.",
+      "theme": "#d68594",
+      "bg": "#ead2ca",
+      "visual": [
+        "#d68594",
+        "#f0d4c9",
+        "#2f2d3b"
+      ],
+      "image": "https://i.ytimg.com/vi/1Fg5iWmQjwk/sddefault.jpg",
+      "posterTitle": [
+        {
+          "text": "GRAND",
+          "x": "0vw"
+        },
+        {
+          "text": "HOTEL",
+          "x": "15vw"
+        }
+      ],
+      "frames": [
+        [
+          "PALETTE",
+          "Pink facades, red uniforms, and icy blues build instant recognition."
+        ],
+        [
+          "ORDER",
+          "Centered compositions make motion feel like choreography."
+        ],
+        [
+          "CAST",
+          "Faces and costumes become a dense editorial system."
+        ],
+        [
+          "PACE",
+          "Fast cuts stay legible because every frame has strict geometry."
+        ]
+      ]
+    },
+    {
+      "title": [
+        "LIGHT",
+        "HOUSE"
+      ],
+      "short": "The Lighthouse",
+      "kicker": "04 / CINEMA STUDY",
+      "date": "2019",
+      "type": "BLACK AND WHITE",
+      "role": "TRAILER STUDY",
+      "client": "A24",
+      "url": "https://www.youtube.com/watch?v=Hyag7lR8CPA",
+      "youtubeId": "Hyag7lR8CPA",
+      "videoDuration": 142,
+      "description": "A square, storm-heavy image world where grain, faces, and darkness do most of the speaking.",
+      "theme": "#d9d7cb",
+      "bg": "#2d302d",
+      "visual": [
+        "#d9d7cb",
+        "#5a5d56",
+        "#080908"
+      ],
+      "image": "https://i.ytimg.com/vi/Hyag7lR8CPA/maxresdefault.jpg",
+      "posterTitle": [
+        {
+          "text": "LIGHT",
+          "x": "0vw"
+        },
+        {
+          "text": "HOUSE",
+          "x": "14vw"
+        }
+      ],
+      "frames": [
+        [
+          "GRAIN",
+          "Heavy texture makes the image feel carved instead of photographed."
+        ],
+        [
+          "FACES",
+          "Portraits hold pressure through stillness and extreme contrast."
+        ],
+        [
+          "STORM",
+          "Weather becomes a moving wall around the characters."
+        ],
+        [
+          "RITUAL",
+          "The trailer builds dread through repetition, sound, and hard cuts."
+        ]
+      ]
+    },
+    {
+      "title": [
+        "MOOD",
+        "LOVE"
+      ],
+      "short": "In the Mood for Love",
+      "kicker": "05 / CINEMA STUDY",
+      "date": "2000",
+      "type": "ROMANTIC DRAMA",
+      "role": "TRAILER STUDY",
+      "client": "MUBI",
+      "url": "https://www.youtube.com/watch?v=m8GuedsQnWQ",
+      "youtubeId": "m8GuedsQnWQ",
+      "videoDuration": 102,
+      "description": "Red corridors, green shadows, and close textures turn restraint into pure visual memory.",
+      "theme": "#b64438",
+      "bg": "#3f4a3e",
+      "visual": [
+        "#b64438",
+        "#667155",
+        "#160e0c"
+      ],
+      "image": "https://i.ytimg.com/vi/m8GuedsQnWQ/maxresdefault.jpg",
+      "posterTitle": [
+        {
+          "text": "MOOD",
+          "x": "0vw"
+        },
+        {
+          "text": "LOVE",
+          "x": "13vw"
+        }
+      ],
+      "frames": [
+        [
+          "COLOR",
+          "Red fabric, green rooms, and warm practical light carry emotion."
+        ],
+        [
+          "DISTANCE",
+          "Characters are framed through doors, walls, and partial reflections."
+        ],
+        [
+          "RHYTHM",
+          "Slow motion and repeated passages create a private pulse."
+        ],
+        [
+          "MEMORY",
+          "The image feels less like plot and more like something remembered."
+        ]
+      ]
+    },
+    {
+      "title": [
+        "FURY",
+        "ROAD"
+      ],
+      "short": "Mad Max: Fury Road",
+      "kicker": "06 / CINEMA STUDY",
+      "date": "2015",
+      "type": "ACTION DESIGN",
+      "role": "TRAILER STUDY",
+      "client": "WARNER BROS.",
+      "url": "https://www.youtube.com/watch?v=hEJnMQG9ev8",
+      "youtubeId": "hEJnMQG9ev8",
+      "videoDuration": 148,
+      "description": "Orange dust, blue night, chrome machinery, and centered action built for maximum velocity.",
+      "theme": "#e66b3c",
+      "bg": "#c6b690",
+      "visual": [
+        "#e66b3c",
+        "#d6bf8b",
+        "#192d3f"
+      ],
+      "image": "https://i.ytimg.com/vi/hEJnMQG9ev8/maxresdefault.jpg",
+      "posterTitle": [
+        {
+          "text": "FURY",
+          "x": "0vw"
+        },
+        {
+          "text": "ROAD",
+          "x": "15vw"
+        }
+      ],
+      "frames": [
+        [
+          "DUST",
+          "The palette is brutal and simple: heat, metal, sky, skin."
+        ],
+        [
+          "MACHINE",
+          "Vehicles read like characters because their shapes are so specific."
+        ],
+        [
+          "CENTER",
+          "Action remains readable by locking the eye to the middle of frame."
+        ],
+        [
+          "IMPACT",
+          "Cuts, crashes, and scale build a graphic rhythm of acceleration."
+        ]
+      ]
+    },
+    {
+      "title": [
+        "2001",
+        "ODYSSEY"
+      ],
+      "short": "2001: A Space Odyssey",
+      "kicker": "07 / CINEMA STUDY",
+      "date": "1968",
+      "type": "SPACE MODERNISM",
+      "role": "TRAILER STUDY",
+      "client": "WARNER BROS.",
+      "url": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+      "youtubeId": "oR_e9y-bka0",
+      "videoDuration": 131,
+      "description": "Pure geometry, human scale, and cosmic silence form one of cinema's clearest visual systems.",
+      "theme": "#d8d9d3",
+      "bg": "#eef0ec",
+      "visual": [
+        "#d8d9d3",
+        "#f4f5f1",
+        "#171819"
+      ],
+      "image": "https://i.ytimg.com/vi/oR_e9y-bka0/maxresdefault.jpg",
+      "posterTitle": [
+        {
+          "text": "2001",
+          "x": "0vw"
+        },
+        {
+          "text": "ODYSSEY",
+          "x": "13vw"
+        }
+      ],
+      "frames": [
+        [
+          "VOID",
+          "Black space and white interiors make each object feel absolute."
+        ],
+        [
+          "GEOMETRY",
+          "Circles, corridors, and screens turn design into narrative."
+        ],
+        [
+          "HUMAN",
+          "Small gestures sit against impossible technological calm."
+        ],
+        [
+          "COSMIC",
+          "The trailer suggests awe through scale more than exposition."
+        ]
+      ]
+    },
+    {
+      "title": [
+        "POOR",
+        "THINGS"
+      ],
+      "short": "Poor Things",
+      "kicker": "08 / CINEMA STUDY",
+      "date": "2023",
+      "type": "SURREAL FABLE",
+      "role": "TRAILER STUDY",
+      "client": "SEARCHLIGHT",
+      "url": "https://www.youtube.com/watch?v=RlbR5N6veqw",
+      "youtubeId": "RlbR5N6veqw",
+      "videoDuration": 145,
+      "description": "A surreal color machine of distorted rooms, theatrical bodies, and strange comic luxury.",
+      "theme": "#3fa6b5",
+      "bg": "#cbd4cf",
+      "visual": [
+        "#3fa6b5",
+        "#dfc2b6",
+        "#321d2f"
+      ],
+      "image": "https://i.ytimg.com/vi/RlbR5N6veqw/maxresdefault.jpg",
+      "posterTitle": [
+        {
+          "text": "POOR",
+          "x": "0vw"
+        },
+        {
+          "text": "THINGS",
+          "x": "12vw"
+        }
+      ],
+      "frames": [
+        [
+          "WORLD",
+          "Rooms bend toward fantasy while staying rich in tactile detail."
+        ],
+        [
+          "COLOR",
+          "Turquoise, crimson, cream, and black keep the image alive."
+        ],
+        [
+          "BODY",
+          "Performance and costume create a visual language of discovery."
+        ],
+        [
+          "STRANGE",
+          "The trailer's rhythm turns spectacle into a designed curiosity."
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "同款个人作品集网页"
+  short_description: "完整复用个人网页的样式、长廊和转场，只替换个人资料、项目文案与素材"
+  default_prompt: "使用 $personal-portfolio-template，保留原网页的样式和交互，用我提供的图片和内容生成个人作品集。"

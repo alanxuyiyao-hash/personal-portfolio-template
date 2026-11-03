@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alan Xu - Interactive Portfolio</title>
+    <meta
+      name="description"
+      content="Alan Xu is an interactive developer building motion-led digital work."
+    >
+    <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="%23101111"/><text x="8" y="44" font-family="Arial" font-size="24" font-weight="700" fill="%23c8d2c4">AX</text></svg>'>
+    <link rel="stylesheet" href="styles.css?v=6">
+  </head>
+  <body>
+    <main id="app" class="site" aria-live="polite">
+      <div class="grain" aria-hidden="true"></div>
+
+      <nav class="chrome" aria-label="Primary">
+        <a class="brand" href="#" data-action="home" aria-label="Back to projects">ALAN</a>
+        <div class="progress" aria-hidden="true">
+          <div id="progress-ticks" class="progress-ticks"></div>
+        </div>
+        <button id="about-toggle" class="text-link" type="button">ABOUT</button>
+      </nav>
+
+      <section id="home" class="home-view" aria-label="Projects">
+        <div id="home-preview" class="home-preview" aria-hidden="true">
+          <div class="home-preview-side home-preview-side-left" aria-hidden="true"></div>
+          <div class="home-preview-side home-preview-side-right" aria-hidden="true"></div>
+
+          <div id="home-preview-media" class="home-preview-media" aria-hidden="true"></div>
+
+          <div class="home-preview-copy">
+            <p id="home-preview-kicker"></p>
+            <div id="home-preview-title" class="home-preview-title" aria-label=""></div>
+          </div>
+
+          <div class="home-preview-meta">
+            <dl>
+              <div>
+                <dt>COMPLETED</dt>
+                <dd id="home-preview-date"></dd>
+              </div>
+              <div>
+                <dt>TYPE</dt>
+                <dd id="home-preview-type"></dd>
+              </div>
+              <div>
+                <dt>ROLE</dt>
+                <dd id="home-preview-role"></dd>
+              </div>
+              <div>
+                <dt>CLIENT</dt>
+                <dd id="home-preview-client"></dd>
+              </div>
+            </dl>
+            <button id="home-preview-explore" class="home-preview-explore text-link" type="button">EXPLORE</button>
+            <p id="home-preview-description"></p>
+          </div>
+        </div>
+
+        <div class="gallery-stage" aria-hidden="true">
+          <div id="gallery-track" class="gallery-track"></div>
+        </div>
+
+        <div class="home-meta">
+          <p>INTERACTIVE DEVELOPER<br>AVAILABLE FOR SELECTED WORK</p>
+        </div>
+
+        <div class="home-social">
+          <a href="mailto:alan@example.com">EMAIL</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GITHUB</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN</a>
+        </div>
+
+      </section>
+
+      <section id="project" class="project-view" aria-label="Selected project" aria-hidden="true">
+        <div class="project-copy">
+          <p id="project-kicker"></p>
+          <div id="project-title" class="project-title" aria-label=""></div>
+        </div>
+
+        <div class="project-media-shell">
+          <div id="project-media" class="project-media"></div>
+          <video
+            id="local-video"
+            class="local-video"
+            playsinline
+            controls
+            preload="metadata"
+          ></video>
+          <iframe
+            id="video-frame"
+            class="video-frame"
+            title="Project trailer"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <button id="video-toggle" class="video-toggle" type="button" aria-label="Play video">
+            <span id="video-toggle-label">PLAY</span>
+          </button>
+          <div class="video-time">
+            <span id="video-current">00:00</span>
+            <span id="video-duration">00:00</span>
+          </div>
+        </div>
+
+        <div id="video-timeline" class="video-timeline" aria-label="Video timeline">
+          <div class="video-timeline-head">
+            <span>SMART TIMELINE</span>
+            <span id="video-timecode">00:00 / 00:00</span>
+          </div>
+          <div id="video-track" class="video-track" role="slider" aria-label="Video progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+            <div id="video-progress" class="video-progress"></div>
+            <div id="video-chapters" class="video-chapters"></div>
+          </div>
+        </div>
+
+        <aside id="chapter-panel" class="chapter-panel" aria-label="Smart chapter summary">
+          <p>SMART CHAPTER</p>
+          <h2 id="chapter-title"></h2>
+          <p id="chapter-summary"></p>
+          <ul id="chapter-points"></ul>
+        </aside>
+
+        <div id="project-rail" class="project-rail" aria-label="Project frames"></div>
+
+        <div class="project-meta">
+          <dl>
+            <div>
+              <dt>COMPLETED</dt>
+              <dd id="project-date"></dd>
+            </div>
+            <div>
+              <dt>TYPE</dt>
+              <dd id="project-type"></dd>
+            </div>
+            <div>
+              <dt>ROLE</dt>
+              <dd id="project-role"></dd>
+            </div>
+            <div>
+              <dt>CLIENT</dt>
+              <dd id="project-client"></dd>
+            </div>
+          </dl>
+          <a id="project-url" class="visit-site text-link" href="#" target="_blank" rel="noreferrer">VISIT SITE</a>
+          <p id="project-description"></p>
+        </div>
+
+        <button id="close-project" class="project-close text-link" type="button">PROJECTS</button>
+      </section>
+
+      <div id="title-burst" class="title-burst" aria-hidden="true">
+        <div id="burst-media" class="burst-media" aria-hidden="true"></div>
+        <div id="burst-title" class="burst-title"></div>
+      </div>
+
+      <aside id="about" class="about-view" aria-hidden="true" aria-label="About Alan Xu">
+        <div class="about-mark">AX<br>2026</div>
+        <p>
+          ALAN XU BUILDS MOTION-LED DIGITAL EXPERIENCES, INTERACTIVE TOOLS,
+          AND WEB SYSTEMS WITH A FOCUS ON RHYTHM, CLARITY, AND DETAIL.
+        </p>
+        <ul>
+          <li><span>FOCUS</span><b>FRONTEND / MOTION / PRODUCT</b></li>
+          <li><span>TOOLS</span><b>REACT / WEBGL / DESIGN SYSTEMS</b></li>
+          <li><span>BASE</span><b>SHANGHAI / REMOTE</b></li>
+        </ul>
+      </aside>
+    </main>
+
+    <script src="script.js?v=35"></script>
+  </body>
+</html>
